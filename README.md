@@ -6,4 +6,4 @@ This is a self-teaching project, aiming to implement a simple network penetratio
 Initially, the project is conceived to feature (but not limited to) the following modules:
 - Data gahering scraper
 - Port Scanner
-- Backdoor (both server and client side)
+- Backdoor payload (both server and client side)
